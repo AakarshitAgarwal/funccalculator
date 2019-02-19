@@ -17,7 +17,8 @@ int main()
         sub(a,b);
 	cout<<"product of two no's is "<<endl;
       	mult(a,b);
-
+	cout<<"quotient of two no's is "<<endl;
+        div(a,b);
 	return(0);
 }
 void sub(int a,int b)
@@ -32,3 +33,11 @@ void mult(int a,int b)
         prod=a*b;
         cout<<prod;
 }
+void div(int a,int b)
+{
+        int quot;
+        quot=a/b;
+        cout<<qout;
+}
+
+
